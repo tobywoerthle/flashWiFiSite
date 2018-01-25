@@ -321,45 +321,6 @@ section.cta .overlay {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-section.demo {
-  position: relative;
-  padding: 250px 0;
-  background-image: url("../img/cellPhone.jpg");
-  background-position: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-section.demo .demo-content {
-  position: relative;
-  z-index: 1;
-}
-
-section.demo .demo-content h2 {
-  font-size: 50px;
-  max-width: 450px;
-  margin-top: 0;
-  margin-bottom: 25px;
-  color: white;
-}
-
-@media (min-width: 768px) {
-  section.demo .demo-content h2 {
-    font-size: 80px;
-  }
-}
-
-section.demo .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
 section.contact {
   text-align: center;
 }

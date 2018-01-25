@@ -9,6 +9,16 @@
     <meta name="author" content="">
 
     <title>WiFiota</title>
+	
+	<!-- Sections 
+		Home
+		Download
+		Purpose
+		Features
+		Demo
+		Use Cases
+		Contact
+	-->
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -24,7 +34,8 @@
     <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
 
     <!-- Custom styles for this template -->
-    <link href="css/new-age.min.css" rel="stylesheet">
+    <!--<link href="css/new-age.min.css" rel="stylesheet">-->
+	<link href="css/new-age.css" rel="stylesheet">
 
   </head>
 
@@ -43,8 +54,17 @@
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#download">Download</a>
             </li>
+			<li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#purpose">Purpose</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#features">Features</a>
+            </li>
+			<li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#demo">Demo</a>
+            </li>
+			<li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#usecases">Use Cases</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -59,8 +79,8 @@
         <div class="row h-100">
           <div class="col-lg-7 my-auto">
             <div class="header-content mx-auto">
-              <h1 class="mb-5">WiFiota is an Android app built for the IOTA Flash hack competition!</h1>
-              <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Start Now for Free!</a>
+              <h1 class="mb-5"><a href="#download" class="js-scroll-trigger">WiFiota</a> is an Android app built for the <a href="https://blog.iota.org/flash-chanels-competition-statistics-15870a4073ea">IOTA Flash hack competition!</a></h1>
+              <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Download now!</a>
             </div>
           </div>
           <div class="col-lg-5 my-auto">
@@ -84,11 +104,22 @@
         </div>
       </div>
     </section>
+	
+	<section class="cta"id="purpose">
+      <div class="cta-content">
+        <div class="container">
+          <h2>Purpose.</h2>
+          <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Let's Get Started!</a>
+        </div>
+      </div>
+      <div class="overlay"></div>
+    </section>
+	
 
     <section class="features" id="features">
       <div class="container">
         <div class="section-heading text-center">
-          <h2>IOTA + Flash Channels + WiFi</h2>
+          <h2 style="color: #0649FC;">IOTA + Flash Channels + WiFi</h2>
           <p class="text-muted">Check out what you can do with this app theme!</p>
           <hr>
         </div>
@@ -136,18 +167,26 @@
       </div>
     </section>
 
-    <section class="cta">
-      <div class="cta-content">
+    <section class="demo" id="demo">
+      <div class="demo-content">
         <div class="container">
-          <h2>Placeholder.<br>Placeholder.</h2>
-          <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">Let's Get Started!</a>
+          <h2>Demo > YouTube video.</h2>
         </div>
       </div>
       <div class="overlay"></div>
     </section>
+	
+	<section class="contact" id="usecases" style="background-color: #0649FC; color: #FFFFFF;">
+      <div class="container">
+        <h2>Use Cases</h2>
+			<div>
+			<p>Text</p>
+			</div>
+      </div>
+    </section>
 
     <section class="contact bg-primary" id="contact">
-      <div class="container">
+      <div class="container" style="color: #0649FC;">
         <h2>Built in Munich & Toronto</h2>
 		  <img src="img/munich.jpg" style="max-width:30%;height:auto;" alt=""/>
 		  <img src="img/toronto.jpg" style="max-width:30%;height:auto;" alt="">
