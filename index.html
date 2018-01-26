@@ -61,10 +61,13 @@
               <a class="nav-link js-scroll-trigger" href="#features">Features</a>
             </li>
 			<li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#flashIntegration">Flash Channels</a>
+            </li>
+			<li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#demo">Demo</a>
             </li>
 			<li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#usecases">Use Cases</a>
+              <a class="nav-link js-scroll-trigger" href="#useCasesFutureFeatures">Use Cases</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -79,7 +82,7 @@
         <div class="row h-100">
           <div class="col-lg-7 my-auto">
             <div class="header-content mx-auto">
-              <h1 class="mb-5"><a href="#download" class="js-scroll-trigger">WiFiota</a> is an Android app built for the <a href="https://blog.iota.org/flash-chanels-competition-statistics-15870a4073ea">IOTA Flash hack competition!</a></h1>
+              <h1 class="mb-5"><a href="#download" class="js-scroll-trigger">WiFiota</a> is an Android app built for the <a href="https://blog.iota.org/flash-chanels-competition-statistics-15870a4073ea">IOTA Flash Channels Competition!</a></h1>
               <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Download now!</a>
             </div>
           </div>
@@ -120,7 +123,7 @@
       <div class="container">
         <div class="section-heading text-center">
           <h2 style="color: #0649FC;">IOTA + Flash Channels + WiFi</h2>
-          <p class="text-muted">Free microtransactions - billed per unit of time (MB to be implemented in the future)!</p>
+          <p class="text-muted">Precise, Secure, Free!</p>
           <hr>
         </div>
         <div class="row">
@@ -132,32 +135,41 @@
               <div class="row">
                 <div class="col-lg-6">
                   <div class="feature-item">
-                    <i class="icon-screen-smartphone text-primary"></i>
-                    <h3>Device Mockups</h3>
-                    <p class="text-muted">Placeholder text Placeholder text Placeholder text Placeholder text!</p>
+				  
+                    <h3>Flash Channels</h3>
+                    <p class="text-muted">Free microtransactions, buyer/seller shared risk</p>
                   </div>
                 </div>
                 <div class="col-lg-6">
                   <div class="feature-item">
-                    <i class="icon-camera text-primary"></i>
-                    <h3>Flexible Use</h3>
-                    <p class="text-muted">Placeholder text Placeholder text Placeholder text Placeholder text!</p>
+                    <h3>Private Testnet</h3>
+                    <p class="text-muted">WiFiota managed modified fast node with functionality to generate test funds</p>
                   </div>
                 </div>
               </div>
               <div class="row">
                 <div class="col-lg-6">
                   <div class="feature-item">
-                    <i class="icon-present text-primary"></i>
-                    <h3>Free to Use</h3>
-                    <p class="text-muted">Try it out, no need to buy the app!</p>
+                    <h3>WiFi Direct	</h3>
+                    <p class="text-muted">Ability to find buyers and sellers, without reliance on the Internet</p>
                   </div>
                 </div>
                 <div class="col-lg-6">
                   <div class="feature-item">
-                    <i class="icon-lock-open text-primary"></i>
-                    <h3>Open Source</h3>
-                    <p class="text-muted">MIT licensed</p>
+                    <h3>Precise Billing</h3>
+                    <p class="text-muted">Measured usage per minute (per MB to be implemented in the future)</p>
+                  </div>
+                </div>
+				<div class="col-lg-6">
+                  <div class="feature-item">
+                    <h3>Secure Wallet</h3>
+                    <p class="text-muted">Securely generated, encrypted seed storage. Send and receive funds directly in-app. No transaction fees.</p>
+                  </div>
+                </div>
+				<div class="col-lg-6">
+                  <div class="feature-item">
+                    <h3>Data Usage Agreements and Limits</h3>
+                    <p class="text-muted">Configurable time usage limits and buy/sell rates</p>
                   </div>
                 </div>
               </div>
@@ -166,28 +178,50 @@
         </div>
       </div>
     </section>
+	
+	<section class="contact" id="flashIntegration" style="background-color: #0A3C86; color: #FFFFFF;">
+      <div class="container">
+        <h2>Flash Channels Integration</h2>
+			<div>
+			<p>An IOTA Flash Channel is established between two WiFiota users, after the WiFi connection between the devices has been established. Every minute of client data usage is associated with a token transfer in the channel.<p><br/>
+			<p>Signing a transfer signifies agreement to the billed amount. Limits are enforced via specified buy/sell min/max values set by each user. The equal funding of the channel ensures shared risk between both parties, insuring against a user leaving the channel early.<p><br/>
+			<p>Checks are implemented to monitor if time sensitive constraints were not fulfilled, such as the channel not being funded, no peers, etc.</p><br/>
+			</div>
+      </div>
+    </section>
 
     <section class="demo" id="demo">
       <div class="demo-content">
         <div class="container">
-          <h2>Demo > YouTube video.</h2>
+			<h2>Demo</h2>
+          <iframe width="700" height="394" src="https://www.youtube.com/embed/uNVJQCGxqb0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
       </div>
       <div class="overlay"></div>
     </section>
 	
-	<section class="contact" id="usecases" style="background-color: #0A3C86; color: #FFFFFF;">
+	<section class="contact" id="useCasesFutureFeatures" style="background-color: #0A3C86; color: #FFFFFF;">
       <div class="container">
-        <h2>Use Cases</h2>
-			<div>
-			<p>Text</p>
+        <h2>Use Cases & Potential Future Features</h2>
+			<div style="text-align: left">
+			<p>
+				<ul>
+					<li><b>Data plan sharing & optimization</b>: Pay for what you need, sell remaining, buy more if needed</li>
+					<br/>
+					<li><b>Travelers</b>: Easily accessible native cell network data connection. No currency conversion fees for payment</li>
+					<br/>
+					<li><b>Orphan IoT devices</b>: Integrate non-connected devices to network</li>
+					<br/>
+					<li><b>Hardware</b>: Custom hardware routers that sell connection access</li>
+				</ul>			
+			</p>
 			</div>
       </div>
     </section>
 
     <section class="contact bg-primary" id="contact">
       <div class="container" style="color: #FFFFFF;">
-        <h2>Built in Munich & Toronto</h2>
+        <h2 style="font-size: 20px">Built in Munich & Toronto</h2>
 		  <img src="img/munich.jpg" style="max-width:30%;height:auto;" alt=""/>
 		  <img src="img/toronto.jpg" style="max-width:30%;height:auto;" alt="">
       </div>
